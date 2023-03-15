@@ -9,4 +9,29 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "davidgranstrom/scnvim",
+    as = "scnvim",
+    config = function()
+      require('scnvim')
+    end,
+    lazy = false,
+  },
+  {
+    'hkupty/iron.nvim',
+    as = "iron",
+    config = function()
+      require('iron')
+    end,
+    lazy = false,
+  },
+  {
+    "jceb/vim-orgmode",
+  },
+  {
+    "rktjmp/lush.nvim"
+  },
+  {
+    'kartikp10/noctis.nvim',
+  },
 }
